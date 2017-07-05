@@ -76,4 +76,76 @@ img {
 .profile-detail-bio {
     margin-top: 5px;
     font-size: 80%;
+
+#first-content {
+	background-image: url(back-img.jpg);
+	height: 600px;
+}
+
+#first-content-container {
+	height: : 400px;
+}
+
+.container > .first-con-wrapper {
+	height: 80%;
+	background-color: rgba(76, 76, 76, 0.1);
+	margin: 0 auto 0 auto;
+}
+
+.first-con-text {
+	padding-top: 100px;
+	width: 45%;
+	color: white;
+	float: left;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.first-con-btn {
+	width: 80px;
+	height: auto;
+}
+
+div.first-con-img{
+	float: left;
+	width:50%;
+}
+
+.first-con-img > img {
+	width: 80%;
+	height: auto;
+	padding-top: 100px;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+}
+
+.header .border {
+	border: 1px solid black;
+}
+
+.header .menu {
+	margin-top: 10px;
+}
+
+.header .logo {
+	width: 150px;
+}
+
+.header ul {
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+
+.header ul li {
+	display: inline;
+	border-left: 1px solid black;
+	padding: 0 10px;
+}
+
+.header ul li:first-child {
+	border-left: none;
 }
