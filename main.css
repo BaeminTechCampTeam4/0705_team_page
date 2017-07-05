@@ -144,6 +144,8 @@ div.first-con-img{
 .header {
 	position: fixed;
 	width: 100%;
+	height: 80px;
+	background-color: white;
 }
 
 .header .border {
