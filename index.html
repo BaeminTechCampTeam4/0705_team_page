@@ -14,17 +14,15 @@
 			<img class="logo" src="team_logo_100px.png"></img>
 			<ul>
 				<li>
-					<a href="#team">팀 소개</a>
+					<a class="team" href="#team">팀 소개</a>
 				</li>
 				<li>
-					<a href="#member">팀원 소개</a>
+					<a class="member" href="#member">팀원 소개</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 </div>
-
-
 
 <div class="content">
 	<div class="container"></div>
@@ -35,5 +33,16 @@
 <div class="footer">
 	<div class="container"></div>
 </div>
+
+<script>
+	var team = document.querySelector("a[class='team']")
+	var member = document.querySelector("a[class='member']")
+	team.addEventListener('click', function() {
+		console.log(1234)
+	})
+	member.addEventListener('click', function() {
+		console.log(5678)
+	})
+</script>
 </body>
 </html>
