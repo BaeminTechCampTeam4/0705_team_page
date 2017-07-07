@@ -145,7 +145,15 @@ div.first-con-img{
 	position: fixed;
 	width: 100%;
 	height: 80px;
-	background-color: white;
+	background-color: rgba(204, 204, 204, 0.5);
+}
+
+.header a {
+	color: white; text-decoration: none;
+}
+
+.header a:hover {
+	color: blue; text-decoration: underline;
 }
 
 .header .border {
@@ -154,10 +162,12 @@ div.first-con-img{
 
 .header .menu {
 	margin-top: 10px;
+	font-size: 20px;
 }
 
 .header .logo {
 	width: 150px;
+
 }
 
 .header ul {
