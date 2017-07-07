@@ -21,6 +21,10 @@ img {
 }
 
 .woowahan_area {
+	float: right;
+}
+
+.woowahan_explain {
 	color: #4a4a4a;
 	font-size: 12px;
 	text-align: right;
@@ -37,6 +41,12 @@ img {
 
 .contact_area > a > img {
 	height: 70px;
+}
+
+@media(max-width: 600px) {
+.contact_area > a > img {
+	display: none
+}
 }
 
 .content2 {
@@ -184,4 +194,8 @@ div.first-con-img{
 
 .header ul li:first-child {
 	border-left: none;
+}
+
+.footer .border {
+	border: 1px solid black;
 }
