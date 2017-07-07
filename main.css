@@ -43,7 +43,7 @@ img {
 	height: 70px;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 750px) {
 .contact_area > a > img {
 	display: none
 }
