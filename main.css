@@ -21,6 +21,10 @@ img {
 }
 
 .woowahan_area {
+	float: right;
+}
+
+.woowahan_explain {
 	color: #4a4a4a;
 	font-size: 12px;
 	text-align: right;
@@ -37,6 +41,12 @@ img {
 
 .contact_area > a > img {
 	height: 70px;
+}
+
+@media(max-width: 600px) {
+.contact_area > a > img {
+	display: none
+}
 }
 
 .content2 {
@@ -146,7 +156,15 @@ img {
 	position: fixed;
 	width: 100%;
 	height: 80px;
-	background-color: white;
+	background-color: rgba(204, 204, 204, 0.5);
+}
+
+.header a {
+	color: white; text-decoration: none;
+}
+
+.header a:hover {
+	color: blue; text-decoration: underline;
 }
 
 .header .border {
@@ -155,10 +173,12 @@ img {
 
 .header .menu {
 	margin-top: 10px;
+	font-size: 20px;
 }
 
 .header .logo {
 	width: 150px;
+
 }
 
 .header ul {
@@ -175,4 +195,8 @@ img {
 
 .header ul li:first-child {
 	border-left: none;
+}
+
+.footer .border {
+	border: 1px solid black;
 }
